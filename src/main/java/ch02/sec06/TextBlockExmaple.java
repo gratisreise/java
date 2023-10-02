@@ -9,23 +9,23 @@ public class TextBlockExmaple {
                 "}";
 
 		// 모듈 바꿨는데도 안돼네 흠....
-		String str2 = """
-		{
-			"id":"winter",
-			"name":"눈송이"
-		}
-		""";
+//		String str2 = """
+//		{
+//			"id":"winter",
+//			"name":"눈송이"
+//		}
+//		""";
 
 		System.out.println(str1);
 		System.out.println("------------------------------------");
-		System.out.println(str2);
+//		System.out.println(str2);
 		System.out.println("------------------------------------");
-		String str = """
-		나는 자바를 \
-		학습합니다.
-		나는 자바 고수가 될 겁니다.
-		""";
-		System.out.println(str);
+//		String str = """
+//		나는 자바를 \
+//		학습합니다.
+//		나는 자바 고수가 될 겁니다.
+//		""";
+//		System.out.println(str);
 
 
     }
