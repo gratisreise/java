@@ -7,6 +7,10 @@ public class CharExample {
 
         char c3 = '가';  // 문자 저장
         char c4 = 44032;// 유니코드 직접저장
+
+        // char c = '';  -> 컴파일 에러
+        // char c = ' '; -> 공백 하나를 포함해서 초기화
+
         System.out.println(c1);
         System.out.println(c2);
         System.out.println(c3);
