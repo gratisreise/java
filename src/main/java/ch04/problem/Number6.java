@@ -1,4 +1,4 @@
-package problem;
+package ch04.problem;
 
 public class Number6 {
     public static void main(String[] args) {

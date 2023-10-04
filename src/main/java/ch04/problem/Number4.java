@@ -1,4 +1,4 @@
-package problem;
+package ch04.problem;
 
 public class Number4 {
     static int x, y;
