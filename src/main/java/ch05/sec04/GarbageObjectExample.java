@@ -9,7 +9,7 @@ public class GarbageObjectExample {
         String kind2 = kind1; // kind1 변수에 저장되어 있는 번지를 kind2 변수에 대입
         kind1 = null;
         System.out.println("kind2: " + kind2);
-        
+
         //free()의 간접적인 표현방법?? null
     }
 }
