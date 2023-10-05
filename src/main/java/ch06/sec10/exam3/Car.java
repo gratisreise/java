@@ -27,6 +27,6 @@ public class Car {
 
         //인스턴스 멤버 사용
         myCar.speed  = 60;
-        myCar.run():
+        myCar.run();
     }
 }
