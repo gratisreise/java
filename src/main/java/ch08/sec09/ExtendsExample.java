@@ -10,7 +10,7 @@ public class ExtendsExample {
         System.out.println();
 
         InterfaceB ib = impl;
-        //ib.methodA();
+//        ib.methodA();
         ib.methodB();
         System.out.println();
 
