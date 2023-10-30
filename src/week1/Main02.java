@@ -8,7 +8,7 @@ public class Main02 {
         String s = sc.next();
 
         for(int i = 0; i < s.length(); i++){
-            cnt[s.charAt(i) - 97]++;
+            cnt[s.charAt(i) - 'a']++;
         }
         for(int i : cnt) System.out.print(i + " ");
     }
