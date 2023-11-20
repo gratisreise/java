@@ -1,31 +1,29 @@
 package week1;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
-public class Main01 {
-    public static int a[] = new int[9];
-    public static int b, c;
+public class Main01{
+    static int sum, ret1, ret2;
+    static int[] a = new int[9];
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int sum = 0;
-
-        for(int i = 0; i < 9; i++){
+        List<Integer> l = new ArrayList<>();
+        for(int i = 0; i < 9; i++) {
             a[i] = sc.nextInt();
             sum += a[i];
         }
-
         for(int i = 0; i < 9; i++){
-            for(int j = 0; j< 9; j++){
+            for(int j = 0; j < i; j++){
                 if(sum - a[i] - a[j] == 100){
-                    b = a[i]; c = a[j]; break;
+                    ret1 = a[i]; ret2 = a[j];
                 }
             }
         }
-        Arrays.sort(a);
         for(int i = 0; i < 9; i++){
-            if(a[i] == b || a[i] == c) continue;
-            System.out.println(a[i]);
+            if(a[i] == ret1 || a[i] == ret2) continue;
+            l.add(a[i]);
         }
+        Collections.sort(l);
+        for(int i : l) System.out.println(i);
     }
 }
